@@ -18,8 +18,16 @@ const porfolio = () => {
   return (
     <div className='container'>
       <div className="home">
-        <nav><h1>THINESH G</h1></nav> 
+        <nav><h1>GT Porfolio</h1></nav> 
       </div>
+      <div className="intro">
+            <h1>HI, I'm Thinesh G</h1>
+            <h3>Frontend Developer | Chemist</h3>
+            <p>Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. Quae cum 
+                in fugit asperiores 
+                neque. Sed ipsa quisquam ex repellendus tempore.</p>
+        </div>
     <div className="about">
         <img src={profile} alt="my image" />
 
@@ -54,8 +62,7 @@ const porfolio = () => {
   <div class="contain">
     <h4><b>Digital Clock Project</b></h4> 
     <p>Architect & Engineer</p>
-    <a href="">Github</a> 
-    <a href="">Website</a>
+    <a href="">&#10230;</a> 
   </div>
   <div/>
   
@@ -65,8 +72,7 @@ const porfolio = () => {
   <div class="contain">
     <h4><b>Currency Converter Project </b></h4> 
     <p>Architect & Engineer</p> 
-    <a href="">Github</a> 
-    <a href="">Website</a>
+    <a href="">&#10230;</a>
   </div>
   <div/>
   </div>
@@ -75,8 +81,16 @@ const porfolio = () => {
   <div class="contain">
     <h4><b>Advice Website Project</b></h4> 
     <p>Architect & Engineer</p> 
-    <a href="">Github</a> 
-    <a href="">Website</a>
+    <a href="">&#10230;</a>
+  </div>
+  <div/>
+  </div>
+  <div class="card">
+  <img src={myweb} alt="Avatar"/>
+  <div class="contain">
+    <h4><b>Advice Website Project</b></h4> 
+    <p>Architect & Engineer</p> 
+    <a href="">&#10230;</a> 
   </div>
   <div/>
   </div>
@@ -85,8 +99,7 @@ const porfolio = () => {
   <div class="contain">
     <h4><b>Passwor Generator Project</b></h4> 
     <p>Architect & Engineer</p>
-    <a href="">Github</a> 
-    <a href="">Website</a> 
+    <a href="">&#10230;</a> 
   </div>
   <div/>
   </div>
@@ -95,8 +108,7 @@ const porfolio = () => {
   <div class="contain">
     <h4><b>Weather App Project</b></h4> 
     <p>Architect & Engineer</p>
-    <a href="">Github</a> 
-    <a href="">Website</a> 
+    <a href="">&#10230;</a>
   </div>
   <div/>
   </div>
