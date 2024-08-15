@@ -8,6 +8,7 @@ import js from './assets/js.png'
 import bs from './assets/bootstrap.png'
 import mangodb from './assets/mangodb.png'
 import cecri from './assets/cecri.png'
+import dc from  './assets/dc1.png'
 const porfolio = () => {
   return (
     <div className='container'>
@@ -41,7 +42,61 @@ const porfolio = () => {
             <img src={cecri} alt="" />
         </div>
     </div>
+    <div className="project">
+     <h2>Project</h2>   
+    <div class="card">
+  <img src={dc} alt="Avatar"/>
+  <div class="contain">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+  <div/>
+  
+</div>
+<div class="card">
+  <img src={dc} alt="Avatar"/>
+  <div class="contain">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+  <div/>
+  </div>
+  <div class="card">
+  <img src={dc} alt="Avatar"/>
+  <div class="contain">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+  <div/>
+  </div>
+  <div class="card">
+  <img src={dc} alt="Avatar"/>
+  <div class="contain">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+  <div/>
+  </div>
+ </div>
+ <div className="contact">
+    <h2>Get In Touch</h2>
+    <div className="in">
+    <label htmlFor="">Name</label>
+    <input type="text" />
     </div>
+    <div className="in">
+    <label htmlFor="">Email</label>
+    <input type="text" />
+    </div>
+    <div className="out">
+    <label htmlFor="">Details</label>
+    <input type="text" />
+    </div>
+      <div className="submit">
+        <button>Submit</button>
+      </div>
+ </div>
+  </div>
 
   )
 };
