@@ -9,6 +9,11 @@ import bs from './assets/bootstrap.png'
 import mangodb from './assets/mangodb.png'
 import cecri from './assets/cecri.png'
 import dc from  './assets/dc1.png'
+import advice from './assets/aa.png'
+import converter from './assets/cc.png'
+import myweb from './assets/mw.png'
+import generator from './assets/pg.png'
+import weather from './assets/wa.png'
 const porfolio = () => {
   return (
     <div className='container'>
@@ -47,33 +52,51 @@ const porfolio = () => {
     <div class="card">
   <img src={dc} alt="Avatar"/>
   <div class="contain">
-    <h4><b>John Doe</b></h4> 
-    <p>Architect & Engineer</p> 
+    <h4><b>Digital Clock Project</b></h4> 
+    <p>Architect & Engineer</p>
+    <a href="">Github</a> 
+    <a href="">Website</a>
   </div>
   <div/>
   
 </div>
 <div class="card">
-  <img src={dc} alt="Avatar"/>
+  <img src={converter} alt="Avatar"/>
   <div class="contain">
-    <h4><b>John Doe</b></h4> 
+    <h4><b>Currency Converter Project </b></h4> 
     <p>Architect & Engineer</p> 
+    <a href="">Github</a> 
+    <a href="">Website</a>
   </div>
   <div/>
   </div>
   <div class="card">
-  <img src={dc} alt="Avatar"/>
+  <img src={advice} alt="Avatar"/>
   <div class="contain">
-    <h4><b>John Doe</b></h4> 
+    <h4><b>Advice Website Project</b></h4> 
     <p>Architect & Engineer</p> 
+    <a href="">Github</a> 
+    <a href="">Website</a>
   </div>
   <div/>
   </div>
   <div class="card">
-  <img src={dc} alt="Avatar"/>
+  <img src={generator} alt="Avatar"/>
   <div class="contain">
-    <h4><b>John Doe</b></h4> 
-    <p>Architect & Engineer</p> 
+    <h4><b>Passwor Generator Project</b></h4> 
+    <p>Architect & Engineer</p>
+    <a href="">Github</a> 
+    <a href="">Website</a> 
+  </div>
+  <div/>
+  </div>
+  <div class="card">
+  <img src={weather} alt="Avatar"/>
+  <div class="contain">
+    <h4><b>Weather App Project</b></h4> 
+    <p>Architect & Engineer</p>
+    <a href="">Github</a> 
+    <a href="">Website</a> 
   </div>
   <div/>
   </div>
