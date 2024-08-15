@@ -1,0 +1,59 @@
+*{
+    font-family: "open sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background-color: white;
+}
+.container{
+    background-color: rgb(1, 1, 29);
+    border-radius: 5px;
+    height: 100%;
+    width: 400px;
+    color: white;
+}
+nav{
+    background-color: purple;
+    color: white;
+    padding: 5px;
+}
+.about{
+    text-align: center;
+}
+.about img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.me{
+    text-align: center;
+    height: 200px;
+    width: 350px;
+    margin-left: 25px;
+    background-color: rgba(128, 128, 128, 0.363);
+    border-radius: 10%;
+    padding-top: 10px;
+    
+}
+.me p{
+    padding-top: 20px;
+}
+.skills{
+    text-align: center;
+    margin-top: 20px;
+}
+.skills img{
+    height: 90px;
+    width: 90px;
+    margin: 30px;
+}
