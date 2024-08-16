@@ -23,7 +23,7 @@ const porfolio = () => {
   return (
     <div className='container'>
       <div className="home">
-        <nav><h1>Porfolio</h1><h1><a href="#"><IoMenuSharp /></a></h1></nav> 
+        <nav><h1>Portfolio</h1><h1><a href="#"><IoMenuSharp /></a></h1></nav> 
       </div>
       <div className="intro">
             <h1>HI, I'm Thinesh G</h1>
