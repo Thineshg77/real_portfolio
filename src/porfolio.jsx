@@ -23,7 +23,10 @@ const porfolio = () => {
   return (
     <div className='container'>
       <div className="home">
-        <nav><h1>Portfolio</h1><h1><a href="#"><IoMenuSharp /></a></h1></nav> 
+        <nav><h1>Portfolio</h1><h1><a href="#about" className='nv'>Home </a>
+         | <a href="#skill" className='nv'>Skills</a> | <a href="#project" className='nv'>Projects</a> |
+          <a href="#contact" className='nv'> Contact</a><a href="#skill" className='wed'>
+            <IoMenuSharp /></a></h1></nav> 
       </div>
       <div className="intro">
             <h1>HI, I'm Thinesh G</h1>
@@ -37,6 +40,7 @@ const porfolio = () => {
         <a href="https://github.com/Thineshg77"><FaGithub /></a>
        <a href="">Resume <TbFileCv /></a>
         </div>
+    <div className="co" id='about'>
     <div className="about">
         <img src={profile} alt="my image" />
 
@@ -44,36 +48,41 @@ const porfolio = () => {
     <div className="me">
         <h2>About me</h2>
         <p>I'm a Front-End Developer and Chemist like to build a clean and  usable 
-            interface and also I have experience with the Reactjs. I'm the one who 
+            interface and also I have experience with the ReactJs. I'm the one who 
             eager to upgrade my skills in every aspects.I have seeking for the opportunity
             to showcase my skills...
         </p>
     </div>
-    <div className="skills">
-        <h2>Skills</h2>
-        <div className="1">
+    </div>
+    <div className="skills" id='skill'>
+        <h2 className='skl'>SKILLS</h2>
+        <div className="one">
             <img src={html} alt="" />
             <img src={css} alt="" />
         </div>
-        <div className="1">
+        <div className="one">
             <img src={bs} alt="" />
             <img src={js} alt="" />
         </div>
-        <div className="1">
+        <div className="one">
             <img src={react} alt="" />
             <img src={mangodb} alt="" />
         </div>
-        <div className="1">
+        <div className="one">
             <img src={cecri} alt="" />
         </div>
     </div>
-    <div className="project">
-     <h2>Projects</h2>   
+    <div className="project" id='project'>
+     <h2>PROJECTS</h2>   
+    <div className="grd1">
     <div class="card">
   <img src={dc} alt="Avatar"/>
   <div class="contain">
     <h4><b>Digital Clock Project</b></h4> 
-    <p>Architect & Engineer</p>
+    <p>The Digital Clock App is used to display the current time 
+      in the digital format.The Functions like
+       getHours(),getMinutes(),getSeconds() are used.
+    </p>
     <div className="bad">
     <span class="badge">HTML</span>
     <span class="badge">CSS</span>
@@ -99,11 +108,15 @@ const porfolio = () => {
   </div>
   <div/>
   </div>
+  </div>
+<div className="grd2">
 <div class="card">
   <img src={converter} alt="Avatar"/>
   <div class="contain">
     <h4><b>Currency Converter Project </b></h4> 
-    <p>Architect & Engineer</p> 
+    <p>The Currency Converter App is used to convert amounts between
+      different currencies using a real time exchange rates.A currency exchange 
+      API to fetch up-to-date exchange rates.</p> 
     <div className="bad">
     <span class="badge">HTML</span>
     <span class="badge">CSS</span>
@@ -117,7 +130,8 @@ const porfolio = () => {
   <img src={advice} alt="Avatar"/>
   <div class="contain">
     <h4><b>Advice Website Project</b></h4> 
-    <p>Architect & Engineer</p> 
+    <p>The Advice App is designed to deliver the personalized advice.ReactJs handles
+      user interactions and display the generated advice</p> 
     <div className="bad">
     <span class="badge">HTML</span>
     <span class="badge">CSS</span>
@@ -127,11 +141,14 @@ const porfolio = () => {
   </div>
   <div/>
   </div>
-  <div class="card">
+</div>
+ <div className="grd3">
+ <div class="card">
   <img src={myweb} alt="Avatar"/>
   <div class="contain">
     <h4><b>Advice Website Project</b></h4> 
-    <p>Architect & Engineer</p> 
+    <p>This Website is created for the purpose of selling the product to customers
+      with user friendly options.</p> 
     <div className="bad">
     <span class="badge">HTML</span>
     <span class="badge">CSS</span>
@@ -144,7 +161,10 @@ const porfolio = () => {
   <img src={generator} alt="Avatar"/>
   <div class="contain">
     <h4><b>Passwor Generator Project</b></h4> 
-    <p>Architect & Engineer</p>
+    <p>Password Generator is produce secure, random passwords based on 
+      user friendly criteria.The app features user can specify parameters such as password length,
+      uppercase,numbers and special characters.
+    </p>
     <div className="bad">
     <span class="badge">HTML</span>
     <span class="badge">CSS</span>
@@ -155,7 +175,8 @@ const porfolio = () => {
   <div/>
   </div>
  </div>
- <div className="contact">
+ </div>
+ <div className="contact" id='contact'>
     <h2>Get In Touch</h2>
     <div className="in">
     <label htmlFor="">Name</label>
