@@ -6,7 +6,6 @@ import html from './assets/html.png'
 import css from './assets/css.png'
 import js from './assets/js.png'
 import bs from './assets/bootstrap.png'
-import mangodb from './assets/mangodb.png'
 import cecri from './assets/cecri.png'
 import dc from  './assets/dc1.png'
 import advice from './assets/aa.png'
@@ -14,6 +13,9 @@ import converter from './assets/cc.png'
 import myweb from './assets/mw.png'
 import generator from './assets/pg.png'
 import weather from './assets/wap.png'
+import gmart from './assets/gmart.png'
+import github from './assets/gi.jpg'
+import git from './assets/git.png'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { TbFileCv } from "react-icons/tb";
@@ -54,8 +56,9 @@ const porfolio = () => {
         </p>
     </div>
     </div>
+    <h2 className='sk'>SKILLS</h2>
     <div className="skills" id='skill'>
-        <h2 className='skl'>SKILLS</h2>
+        
         <div className="one">
             <img src={html} alt="" />
             <img src={css} alt="" />
@@ -66,14 +69,16 @@ const porfolio = () => {
         </div>
         <div className="one">
             <img src={react} alt="" />
-            <img src={mangodb} alt="" />
-        </div>
-        <div className="one">
             <img src={cecri} alt="" />
         </div>
+        <div className="one">
+            <img src={git} alt="" />
+            <img src={github} alt="" />
+        </div>
     </div>
+    <h2 className='lk'>PROJECTS</h2>   
     <div className="project" id='project'>
-     <h2>PROJECTS</h2>   
+     
     <div className="grd1">
     <div class="card">
   <img src={dc} alt="Avatar"/>
@@ -91,6 +96,7 @@ const porfolio = () => {
     <a href="https://thinesh-clock.netlify.app/">&#10230;</a> 
   </div>
   <div/>
+  
 </div>
 <div class="card">
   <img src={weather} alt="Avatar"/>
@@ -140,13 +146,28 @@ const porfolio = () => {
     <a href="https://advice-appproject.netlify.app/">&#10230;</a>
   </div>
   <div/>
+  
+  </div>
+  <div class="card">
+  <img src={gmart} alt="Avatar"/>
+  <div class="contain">
+    <h4><b>G-mart E-commerce Website Project </b></h4> 
+    <p>This Website is build using an html, css, react, react-router-dom and for database as JSON file.In this we add the product to cart and romove and login pages are integrated </p> 
+    <div className="bad">
+    <span class="badge">HTML</span>
+    <span class="badge">CSS</span>
+    <span class="badge">REACTJS</span>
+    </div>
+    <a href="https://gmartbythinesh.netlify.app/">&#10230;</a>
+  </div>
+  <div/>
   </div>
 </div>
  <div className="grd3">
  <div class="card">
   <img src={myweb} alt="Avatar"/>
   <div class="contain">
-    <h4><b>Advice Website Project</b></h4> 
+    <h4><b>TN60_Pencil_Arts Website Project</b></h4> 
     <p>This Website is created for the purpose of selling the product to customers
       with user friendly options.</p> 
     <div className="bad">
